@@ -1,0 +1,36 @@
+Web Server Log Analysis – Python Project Assessment
+
+Hello, good morning. My name is Shivam Shrivastava, and I am here to present my assessment project on analyzing web server log data using Python.
+
+In this video, I will walk you through how I parsed the log file, cleaned the data, and performed various analyses to extract meaningful insights. Let's begin.
+
+This project involves analyzing a real web server log file to extract valuable information using Python. I started by importing the necessary libraries including re for regex-based pattern matching, pandas and numpy for data manipulation, matplotlib.pyplot and seaborn for data visualization, and the datetime module for handling dates and times.
+
+Next, I parsed the log file using a regular expression pattern to extract relevant fields such as IP address, timestamp, request method, response code, and file size. This parsed data was saved into a CSV file for further analysis.
+
+I then performed data cleaning and preprocessing. This included converting timestamp strings into Python datetime objects, extracting requested file names and their extensions, converting file size strings to integers, and extracting individual date components such as day, month, and year.
+
+In the analysis phase, I answered ten key analytical questions including:
+
+Total number of log records
+
+Number of unique hosts
+
+Distribution of HTTP status codes
+
+Number of 404 errors
+
+Top requested file names with 404 status
+
+Daily and hourly request distribution
+
+File extension analysis
+
+Bandwidth usage by date
+
+I also created visualizations to represent these insights using matplotlib and seaborn. These included graphs for hourly request distribution, top 10 HTTP status codes, and the most common file extensions.
+
+Through this project, I successfully demonstrated skills in Python programming, regular expressions, data preprocessing, and data visualization. This experience has helped me strengthen my practical understanding of how to work with unstructured log data and turn it into actionable insights.
+
+Thank you for watching my video and considering my assessment.
+
